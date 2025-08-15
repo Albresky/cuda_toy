@@ -1,0 +1,130 @@
+Total iteration:100
+Tatal Kernel Execution Time:184.954ms
+Average Kernel Execution Time:1.84954ms
+
+Test PASS!
+Generating '/tmp/nsys-report-ece8.qdstrm'
+[1/1] [0%                          ] report7.nsys-rep[1/1] [0%                          ] report7.nsys-rep[1/1] [10%                         ] report7.nsys-rep[1/1] [========42%                 ] report7.nsys-rep[1/1] [=================74%        ] report7.nsys-rep[1/1] [==================75%       ] report7.nsys-rep[1/1] [==================76%       ] report7.nsys-rep[1/1] [==================78%       ] report7.nsys-rep[1/1] [====================84%     ] report7.nsys-rep[1/1] [====================85%     ] report7.nsys-rep[1/1] [=====================88%    ] report7.nsys-rep[1/1] [========================97% ] report7.nsys-rep[1/1] [========================99% ] report7.nsys-rep[1/1] [========================100%] report7.nsys-rep[1/1] [========================100%] report7.nsys-rep
+Generated:
+    /media/4T/home/shikai/learn/cuda_toy/examples/gemm/report7.nsys-rep
+Generating SQLite file report7.sqlite from report7.nsys-rep
+Processing 6049 events: [1%                                                    ]Processing 6049 events: [2%                                                    ]Processing 6049 events: [3%                                                    ]Processing 6049 events: [4%                                                    ]Processing 6049 events: [5%                                                    ]Processing 6049 events: [=6%                                                   ]Processing 6049 events: [=7%                                                   ]Processing 6049 events: [==8%                                                  ]Processing 6049 events: [==9%                                                  ]Processing 6049 events: [==10%                                                 ]Processing 6049 events: [==11%                                                 ]Processing 6049 events: [===12%                                                ]Processing 6049 events: [====13%                                               ]Processing 6049 events: [====14%                                               ]Processing 6049 events: [=====15%                                              ]Processing 6049 events: [=====16%                                              ]Processing 6049 events: [======17%                                             ]Processing 6049 events: [======18%                                             ]Processing 6049 events: [=======19%                                            ]Processing 6049 events: [=======20%                                            ]Processing 6049 events: [========21%                                           ]Processing 6049 events: [========22%                                           ]Processing 6049 events: [=========23%                                          ]Processing 6049 events: [=========24%                                          ]Processing 6049 events: [==========25%                                         ]Processing 6049 events: [===========26%                                        ]Processing 6049 events: [===========27%                                        ]Processing 6049 events: [============28%                                       ]Processing 6049 events: [============29%                                       ]Processing 6049 events: [=============30%                                      ]Processing 6049 events: [=============31%                                      ]Processing 6049 events: [==============32%                                     ]Processing 6049 events: [==============33%                                     ]Processing 6049 events: [===============34%                                    ]Processing 6049 events: [===============35%                                    ]Processing 6049 events: [================36%                                   ]Processing 6049 events: [================37%                                   ]Processing 6049 events: [=================38%                                  ]Processing 6049 events: [==================39%                                 ]Processing 6049 events: [==================40%                                 ]Processing 6049 events: [===================41%                                ]Processing 6049 events: [===================42%                                ]Processing 6049 events: [====================43%                               ]Processing 6049 events: [====================44%                               ]Processing 6049 events: [=====================45%                              ]Processing 6049 events: [=====================46%                              ]Processing 6049 events: [======================47%                             ]Processing 6049 events: [======================48%                             ]Processing 6049 events: [=======================49%                            ]Processing 6049 events: [========================50%                           ]Processing 6049 events: [========================51%                           ]Processing 6049 events: [=========================52%                          ]Processing 6049 events: [=========================53%                          ]Processing 6049 events: [==========================54%                         ]Processing 6049 events: [==========================55%                         ]Processing 6049 events: [===========================56%                        ]Processing 6049 events: [===========================57%                        ]Processing 6049 events: [============================58%                       ]Processing 6049 events: [============================59%                       ]Processing 6049 events: [=============================60%                      ]Processing 6049 events: [=============================61%                      ]Processing 6049 events: [==============================62%                     ]Processing 6049 events: [===============================63%                    ]Processing 6049 events: [===============================64%                    ]Processing 6049 events: [================================65%                   ]Processing 6049 events: [================================66%                   ]Processing 6049 events: [=================================67%                  ]Processing 6049 events: [=================================68%                  ]Processing 6049 events: [==================================69%                 ]Processing 6049 events: [==================================70%                 ]Processing 6049 events: [===================================71%                ]Processing 6049 events: [===================================72%                ]Processing 6049 events: [====================================73%               ]Processing 6049 events: [====================================74%               ]Processing 6049 events: [=====================================75%              ]Processing 6049 events: [======================================76%             ]Processing 6049 events: [======================================77%             ]Processing 6049 events: [=======================================78%            ]Processing 6049 events: [=======================================79%            ]Processing 6049 events: [========================================80%           ]Processing 6049 events: [========================================81%           ]Processing 6049 events: [=========================================82%          ]Processing 6049 events: [=========================================83%          ]Processing 6049 events: [==========================================84%         ]Processing 6049 events: [==========================================85%         ]Processing 6049 events: [===========================================86%        ]Processing 6049 events: [===========================================87%        ]Processing 6049 events: [============================================88%       ]Processing 6049 events: [=============================================89%      ]Processing 6049 events: [=============================================90%      ]Processing 6049 events: [==============================================91%     ]Processing 6049 events: [==============================================92%     ]Processing 6049 events: [===============================================93%    ]Processing 6049 events: [===============================================94%    ]Processing 6049 events: [================================================95%   ]Processing 6049 events: [================================================96%   ]Processing 6049 events: [=================================================97%  ]Processing 6049 events: [=================================================98%  ]Processing 6049 events: [==================================================99% ]Processing 6049 events: [==================================================100%]
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/nvtx_sum.py]... 
+SKIPPED: report7.sqlite does not contain NV Tools Extension (NVTX) data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/osrt_sum.py]... 
+
+ ** OS Runtime Summary (osrt_sum):
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)     Med (ns)    Min (ns)   Max (ns)     StdDev (ns)            Name         
+ --------  ---------------  ---------  ------------  -----------  --------  -----------  -------------  ----------------------
+     69.9      713,012,659         15  47,534,177.3  5,117,676.0     1,852  411,478,694  105,598,355.9  poll                  
+     29.3      298,784,047        907     329,420.1     35,376.0       419   31,944,813    1,548,399.1  ioctl                 
+      0.3        2,596,119         27      96,152.6     17,417.0    10,615    1,748,416      331,630.6  mmap64                
+      0.2        2,395,984         10     239,598.4    231,129.5   188,499      293,722       31,899.4  sem_timedwait         
+      0.1          882,948          3     294,316.0    309,049.0   239,863      334,036       48,784.6  pthread_create        
+      0.1          603,714         69       8,749.5      8,239.0     3,629       22,192        3,705.9  open64                
+      0.0          509,579         52       9,799.6      5,526.0     1,049       38,599        8,978.4  fopen                 
+      0.0          311,710         18      17,317.2      8,412.5     1,523      117,118       26,435.8  mmap                  
+      0.0          298,414          1     298,414.0    298,414.0   298,414      298,414            0.0  pthread_cond_wait     
+      0.0          121,448         49       2,478.5      1,790.0       766       10,412        1,923.9  fclose                
+      0.0           74,878        177         423.0         49.0        45       49,878        3,800.1  fgets                 
+      0.0           54,551         15       3,636.7      3,608.0     1,262        5,044        1,201.0  read                  
+      0.0           50,850          6       8,475.0      7,919.0     1,685       18,815        6,291.4  open                  
+      0.0           44,068         83         530.9        554.0       179        1,224          227.6  fcntl                 
+      0.0           41,642         12       3,470.2      3,753.5     1,130        5,502        1,211.0  write                 
+      0.0           33,103          4       8,275.8      7,854.0     5,337       12,058        2,788.1  munmap                
+      0.0           32,028          2      16,014.0     16,014.0     9,879       22,149        8,676.2  fread                 
+      0.0           24,948          3       8,316.0     10,055.0     4,517       10,376        3,293.9  pipe2                 
+      0.0           22,722          2      11,361.0     11,361.0     9,970       12,752        1,967.2  socket                
+      0.0           19,625          3       6,541.7      6,130.0     6,065        7,430          770.0  pthread_cond_broadcast
+      0.0           17,668          1      17,668.0     17,668.0    17,668       17,668            0.0  connect               
+      0.0           15,472          2       7,736.0      7,736.0     6,275        9,197        2,066.2  fflush                
+      0.0           11,874         12         989.5         58.0        44        5,609        1,705.0  fwrite                
+      0.0            5,981          3       1,993.7      1,994.0     1,850        2,137          143.5  fopen64               
+      0.0            2,838          1       2,838.0      2,838.0     2,838        2,838            0.0  bind                  
+      0.0            2,249          7         321.3        303.0       219          462           85.6  dup                   
+      0.0              974          1         974.0        974.0       974          974            0.0  listen                
+      0.0              357          2         178.5        178.5       125          232           75.7  putc                  
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/cuda_api_sum.py]... 
+
+ ** CUDA API Summary (cuda_api_sum):
+
+ Time (%)  Total Time (ns)  Num Calls    Avg (ns)       Med (ns)      Min (ns)     Max (ns)    StdDev (ns)            Name         
+ --------  ---------------  ---------  -------------  -------------  -----------  -----------  ------------  ----------------------
+     49.4      172,241,006          1  172,241,006.0  172,241,006.0  172,241,006  172,241,006           0.0  cudaEventSynchronize  
+     45.4      158,242,831          3   52,747,610.3       83,145.0       77,625  158,082,061  91,222,310.2  cudaMalloc            
+      3.6       12,724,969        100      127,249.7        4,933.5        4,169   12,204,514   1,219,926.9  cudaLaunchKernel      
+      1.4        5,001,550          3    1,667,183.3      473,039.0      417,754    4,110,757   2,116,377.4  cudaMemcpy            
+      0.1          409,963          3      136,654.3       84,321.0       80,411      245,231      94,050.5  cudaFree              
+      0.0           17,400          2        8,700.0        8,700.0          632       16,768      11,409.9  cudaEventCreate       
+      0.0           16,749          2        8,374.5        8,374.5        7,276        9,473       1,553.5  cudaEventRecord       
+      0.0            3,517          2        1,758.5        1,758.5          334        3,183       2,014.5  cudaEventDestroy      
+      0.0            1,186          1        1,186.0        1,186.0        1,186        1,186           0.0  cuModuleGetLoadingMode
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/cuda_gpu_kern_sum.py]... 
+
+ ** CUDA GPU Kernel Summary (cuda_gpu_kern_sum):
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)               Name              
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  -------------------------------
+    100.0      172,729,760        100  1,727,297.6  1,734,918.5  1,586,647  1,736,406     32,470.5  mmKnlL6(Matrix, Matrix, Matrix)
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/cuda_gpu_mem_time_sum.py]... 
+
+ ** CUDA GPU MemOps Summary (by Time) (cuda_gpu_mem_time_sum):
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ----------------------------
+     79.8        2,129,268      1  2,129,268.0  2,129,268.0  2,129,268  2,129,268          0.0  [CUDA memcpy Device-to-Host]
+     20.2          539,453      2    269,726.5    269,726.5    265,503    273,950      5,972.9  [CUDA memcpy Host-to-Device]
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/cuda_gpu_mem_size_sum.py]... 
+
+ ** CUDA GPU MemOps Summary (by Size) (cuda_gpu_mem_size_sum):
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+      4.194      1     4.194     4.194     4.194     4.194        0.000  [CUDA memcpy Device-to-Host]
+      4.194      2     2.097     2.097     2.097     2.097        0.000  [CUDA memcpy Host-to-Device]
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/openmp_sum.py]... 
+SKIPPED: report7.sqlite does not contain OpenMP event data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/opengl_khr_range_sum.py]... 
+SKIPPED: report7.sqlite does not contain KHR Extension (KHR_DEBUG) data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/opengl_khr_gpu_range_sum.py]... 
+SKIPPED: report7.sqlite does not contain GPU KHR Extension (KHR_DEBUG) data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/vulkan_marker_sum.py]... 
+SKIPPED: report7.sqlite does not contain Vulkan Debug Extension (Vulkan Debug Util) data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/vulkan_gpu_marker_sum.py]... 
+SKIPPED: report7.sqlite does not contain GPU Vulkan Debug Extension (GPU Vulkan Debug markers) data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/dx11_pix_sum.py]... 
+SKIPPED: report7.sqlite does not contain DX11 CPU debug markers.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/dx12_gpu_marker_sum.py]... 
+SKIPPED: report7.sqlite does not contain DX12 GPU debug markers.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/dx12_pix_sum.py]... 
+SKIPPED: report7.sqlite does not contain DX12 CPU debug markers.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/wddm_queue_sum.py]... 
+SKIPPED: report7.sqlite does not contain WDDM context data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/um_sum.py]... 
+SKIPPED: report7.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/um_total_sum.py]... 
+SKIPPED: report7.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/um_cpu_page_faults_sum.py]... 
+SKIPPED: report7.sqlite does not contain CUDA Unified Memory CPU page faults data.
+
+Processing [report7.sqlite] with [/opt/nvidia/nsight-systems/2023.3.3/host-linux-x64/reports/openacc_sum.py]... 
+SKIPPED: report7.sqlite does not contain OpenACC event data.
+
